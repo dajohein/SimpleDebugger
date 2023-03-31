@@ -1,0 +1,91 @@
+.simple-debugger {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 4px;
+    overflow: hidden;
+    border: 1px solid #1c1c1c;
+    display: flex;
+    flex-direction: column;
+  }
+  .console-output {
+    background-color: #242424;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 14px;
+    overflow-y: scroll;
+    flex-grow: 1;
+    padding: 4px;
+    border-bottom: 1px solid #1c1c1c;
+  }
+  .console-input {
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #3c3c3c;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  .button {
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #3c3c3c;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    padding: 4px;
+    margin: 0;
+  }
+  .button:hover,
+  .button:active {
+    padding: 4px;
+    margin: 0;
+  }
+  .filter-selector, .search-input {
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #3c3c3c;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 4px;
+  }
+  .resize-handle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    cursor: nwse-resize;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 4px;
+    cursor: move;
+    user-select: none;
+  }
+  .toolbar {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 1px solid #3c3c3c;
+  }
