@@ -208,7 +208,7 @@ class SimpleDebugger {
 
   highlightMatches(text, search) {
     const regex = new RegExp(search, "gi");
-    return text.replace(regex, (match) => <mark>${match}</mark>);
+    return text.replace(regex, (match) => "<mark>${match}</mark>");
   }
 
   startResize(e) {
